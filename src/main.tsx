@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
         <ThirdwebProvider>
             <BrowserRouter>
-                <RemoveScrollBar />
+                {/* <RemoveScrollBar /> */}
                 <Routes>
                     <Route path='/' element={<App />} />
                     <Route path='/playground' element={<Playground />} />

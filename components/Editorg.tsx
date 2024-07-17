@@ -16,9 +16,9 @@ const Editorg = () => {
 		<h1 className="text-2xl font-bold my-4 p-3">Solidity Editor and Compiler</h1>
 		<div className='p-5'>
 			<Editor
-				height="600px"
-				width="600px"
-				defaultLanguage="sol"
+				height="650px"
+				width="650px"
+				defaultLanguage="solidity"
 				theme='vs-dark'
 				defaultValue={code}
 				/>
@@ -29,3 +29,5 @@ const Editorg = () => {
 }
 
 export default Editorg;
+
+
