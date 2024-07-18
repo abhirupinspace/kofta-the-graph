@@ -1,9 +1,15 @@
 import styles from "../src/styles/Home.module.css";
 import { Link } from 'react-router-dom';
 import { ConnectButton } from "thirdweb/react";
-import { client } from '../src/client';
+import { client  } from '../src/client';
+import { ChainId } from "@thirdweb-dev/react";
+import { defineChain } from "thirdweb";
 
 const Navbar = () => {
+    const myChain = defineChain({
+        id: 534351,
+        rpc: "https://sepolia-rpc.scroll.io/",
+    })
     return (
         <div className={styles.navbar}>
             <div className={styles.navbarLogo}>
@@ -28,6 +34,7 @@ const Navbar = () => {
             </div>
             <ConnectButton
                 client={client}
+                chain={myChain}
             />
         </div>
     )

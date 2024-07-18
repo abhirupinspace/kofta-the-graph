@@ -41,10 +41,10 @@ const Playground = () => {
 
     return (
         <main>
-            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg3.png")] '>
+            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg4.png")] '>
                 <Navbar />
 
-                <div className="flex flex-row justify-around p-4">
+                <div className="flex flex-row justify-around p-2">
                     <div>
                         <div className="xp-container">
                             <button className="xp-button" onClick={() => setShowXpPopup(true)}>XP: {xp}</button>
@@ -77,7 +77,7 @@ const Playground = () => {
                                 <span className="sr-only">Loading...</span>
                             </div>
                         ) : (
-                            <pre className="bg-black h-[520px] w-[900px] p-4 rounded-md overflow-y-auto">
+                            <pre className="bg-black h-[510px] w-[900px] p-4 rounded-md overflow-y-auto">
                                 {contractCode}
                             </pre>
                         )}
