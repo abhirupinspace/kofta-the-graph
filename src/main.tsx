@@ -7,11 +7,13 @@ import "./index.css";  // Import Tailwind CSS
 import Playground from "./pages/Playground";
 import Minter from "./pages/Minter";
 import Marketplace from "./pages/Marketplace";
-import {RemoveScrollBar} from 'react-remove-scroll-bar';
+import Profile from "./pages/Profile";
+
 
 createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
         <ThirdwebProvider>
+        
             <BrowserRouter>
                 {/* <RemoveScrollBar /> */}
                 <Routes>
@@ -19,6 +21,7 @@ createRoot(document.getElementById("root")!).render(
                     <Route path='/playground' element={<Playground />} />
                     <Route path='/minter' element={<Minter />} />
                     <Route path='/marketplace' element={<Marketplace />} />
+                    <Route path='/profile' element={<Profile />} />
                 </Routes>
             </BrowserRouter>
         </ThirdwebProvider>

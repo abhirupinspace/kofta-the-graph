@@ -1,4 +1,3 @@
-
 import Editor from '@monaco-editor/react';
 import { useState } from 'react';
 
@@ -18,11 +17,20 @@ const Editorg = () => {
 			<Editor
 				height="650px"
 				width="650px"
-				defaultLanguage="solidity"
+				defaultLanguage="sol"
 				theme='vs-dark'
 				defaultValue={code}
 				/>
-			<button>run</button>
+			
+			<div className="flex py-2 gap-5">
+							
+							<button className="bg-pink-200 hover:bg-pink-400 text-black p-2 rounded mb-4 shadow">
+								Compile
+							</button>
+							<button className="bg-pink-200 hover:bg-pink-400 text-black p-2 rounded mb-4 shadow">
+								Deploy
+							</button>
+						</div>
 		</div>
 	</div>
 	)
