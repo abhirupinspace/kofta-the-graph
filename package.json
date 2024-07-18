@@ -21,6 +21,7 @@
     "@vercel/node": "^3.2.6",
     "apexcharts": "^3.50.0",
     "axios": "^1.7.2",
+    "ethers": "^5.7.2",
     "express": "^4.19.2",
     "formidable": "^3.5.1",
     "framer-motion": "^11.3.6",
@@ -31,6 +32,7 @@
     "react-loader-spinner": "^6.1.6",
     "react-remove-scroll-bar": "^2.3.6",
     "react-router-dom": "^6.25.0",
+    "solc": "^0.8.26",
     "thirdweb": "^5"
   },
   "devDependencies": {

@@ -81,7 +81,7 @@ const Minter = () => {
     return (
         <main>
             <Navbar />
-            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg4.png")]'>
+            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")]'>
                 <div className="flex gap-5">
                     <div className={styles.minterContainer}>
                         <div className={styles.mintContainerSection}>

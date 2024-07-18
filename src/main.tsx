@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from "./App";
-
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
 import "./index.css";  // Import Tailwind CSS
 import Playground from "./pages/Playground";
 import Minter from "./pages/Minter";
@@ -23,6 +23,7 @@ createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
         <QueryClientProvider client={queryClient}>
         <ThirdwebProvider><ThirdwebSDKProvider>
+        <RemoveScrollBar />
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<App />} />

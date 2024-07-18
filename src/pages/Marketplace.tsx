@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 const Marketplace = () => {
     return (
         <main >
-            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg4.png")]'>
+            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")]'>
                 <Navbar />
                 <div className='flex flex-row justify-evenly'>
                     <div className='flex flex-col p-10 bg-black bg-opacity-50 border border-black rounded-lg'>

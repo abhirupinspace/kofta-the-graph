@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<main >
 			<Navbar />
-			<div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg4.png")] '>
+			<div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")] '>
 				<div className="flex flex-col items-center min-h-screen p-20 spac">
 					<div className="flex flex-col min-h-screen p-20">
 						<h1 className="font-bold text-9xl text-left ">LEVEL UP YOUR SMART CONTRACTS</h1>

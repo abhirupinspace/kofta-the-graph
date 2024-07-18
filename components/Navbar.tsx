@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbar}>
             <div className={styles.navbarLogo}>
-                <h1 className="text-2xl">./KOFTA</h1>
+                <h1 className="text-2xl font-bold">./KOFTA</h1>
             </div>
             <div className={styles.navbarLinks}>
                 <Link to={"/"}>

@@ -41,7 +41,7 @@ const Playground = () => {
 
     return (
         <main>
-            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg4.png")] '>
+            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")] '>
                 <Navbar />
 
                 <div className="flex flex-row justify-around p-2">
@@ -82,7 +82,7 @@ const Playground = () => {
                             </pre>
                         )}
                     </div>
-                    <Editorg />
+                        <Editorg />
                 </div>
                 {showXpPopup && (
                     <div className="wallet-popup-overlay">

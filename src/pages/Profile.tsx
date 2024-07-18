@@ -50,6 +50,7 @@ const Profile: React.FC = () => {
     return (
         <div>
             <Navbar />
+            <div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")]'>
 
                 <div className="container mx-auto p-4">
                     <div className="p-6 rounded-lg shadow-lg flex flex-col items-center">
@@ -156,7 +157,7 @@ const Profile: React.FC = () => {
                         )}
                     </div>
                 </div>
-                
+                </div>
             </div>
     );
 };
