@@ -46,7 +46,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 
 # Usage
 ## Minting a Smart Contract NFT!
-[Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/f754ec9b-056d-48ce-953b-798a3ac5af8a)
+
+![Screenshot 2024-07-19 082500](https://github.com/user-attachments/assets/ce40c545-f303-4d99-aee0-f9cd52d1cfb0)
 
 1. Go to the "Mint NFT" page.
 2. Fill in the required details (name, description, recipient address).
