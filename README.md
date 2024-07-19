@@ -62,10 +62,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 ## Technical Details
 1. Scroll: Enhances the scalability and security of Ethereum transactions.
 2. The Graph: Provides efficient real-time indexing and retrieval of smart contract metadata.
-3. Thirdweb: Facilitates the minting and management of NFTs.
 
 ## Acknowledgements
 
 - [Scroll](https://scroll.io) - For providing a security-focused Ethereum scaling solution that enhances the scalability and security of our transactions.
 - [The Graph](https://thegraph.com) - For enabling efficient real-time indexing and retrieval of smart contract metadata through subgraph technology.
-- [Thirdweb](https://thirdweb.com) - For facilitating the minting and management of NFTs, making our marketplace seamless and user-friendly.
