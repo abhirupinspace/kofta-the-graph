@@ -1,5 +1,5 @@
 
-![tw-banner](https://github.com/thirdweb-example/vite-starter/assets/57885104/cfe2164b-b50b-4d8e-aaaa-31331da2d647)
+![Screenshot 2024-07-19 034403](https://github.com/user-attachments/assets/ac7fe9d6-5042-4165-a5cf-fb631dcff40b)
 
 # vite-starter
 
@@ -11,6 +11,7 @@ Starter template to build onchain applications with [thirdweb](https://thirdweb.
 - ConnectButton to onboard users to your application
 
 ## Installation
+
 
 Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
 
