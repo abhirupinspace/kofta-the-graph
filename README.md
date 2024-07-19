@@ -1,5 +1,6 @@
 # Kofta - The Ultimate Smart Contract NFT Marketplace
-![Screenshot 2024-07-19 034403](https://github.com/user-attachments/assets/ac7fe9d6-5042-4165-a5cf-fb631dcff40b)
+![Screenshot 2024-07-19 034403]![Screenshot 2024-07-19 082500](https://github.com/user-attachments/assets/e312e3bd-e38b-4d94-ad57-9ccc36602493)
+
 Kofta revolutionizes the smart contract ecosystem by leveraging the power of Scroll and The Graph to create a seamless, scalable, and secure platform for minting, buying, and selling smart contracts as NFTs.
 
 
@@ -14,6 +15,7 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 - **Efficient Data Indexing**: Leverage The Graph's subgraph technology for real-time indexing and retrieval of smart contract metadata.
 - **NFT Marketplace**: List, buy, sell, and auction smart contract NFTs on our robust marketplace.
 - **User-Friendly Interface**: Intuitive design for a seamless user experience, from contract uploading to NFT trading.
+![Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/fed63d18-be6d-47dc-81c4-88b38e60bef0)
 
 ## Getting Started
 
@@ -49,7 +51,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 2. Fill in the required details (name, description, recipient address).
 3. Upload your smart contract file (.sol) and an image.
 4. Click "Mint NFT".
-## Listing an NFT on the Marketplace
+## Listing an NFT on the Marketplace ![Screenshot 2024-07-19 082519](https://github.com/user-attachments/assets/b7452f0a-6524-4871-b27f-24a736a47b53)
+
 1. Navigate to the marketplace section.
 2. Select the NFT you want to list.
 3. Set the price or start an auction.
