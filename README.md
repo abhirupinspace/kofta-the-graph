@@ -1,7 +1,5 @@
 # Kofta - The Ultimate Smart Contract NFT Marketplace
-![image](https://github.com/user-attachments/assets/6be832ff-6f65-49eb-8cd9-0b5a89d97092)
-
-
+![bg](https://github.com/user-attachments/assets/def61800-e53d-4873-bed1-49fdfe356c3c)
 
 Kofta revolutionizes the smart contract ecosystem by leveraging the power of Scroll and The Graph to create a seamless, scalable, and secure platform for minting, buying, and selling smart contracts as NFTs.
 
@@ -47,7 +45,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
    Open your browser and navigate to http://localhost:3000 to see the app in action.
 
 # Usage
-## Minting a Smart Contract NFT![Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/f754ec9b-056d-48ce-953b-798a3ac5af8a)
+## Minting a Smart Contract NFT!
+[Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/f754ec9b-056d-48ce-953b-798a3ac5af8a)
 
 1. Go to the "Mint NFT" page.
 2. Fill in the required details (name, description, recipient address).
