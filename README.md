@@ -23,36 +23,44 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 - npm or yarn
 - MetaMask (for deploying and interacting with smart contracts)
 
-## Environment Variables
+### Installation
 
-To run this project, you will need to add the following environment variables to your .env file:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/kofta.git
+   cd kofta
+   npm install
+   ```
+2. Run the backend
+   ```bash
+   cd backend
+   node server.js
+   ```
+3. Run the app from the route directory
+   ```bash
+   npm run dev
+   ```
+   Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-`CLIENT_ID`
+# Usage
+## Minting a Smart Contract NFT![Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/f754ec9b-056d-48ce-953b-798a3ac5af8a)
 
+1. Go to the "Mint NFT" page.
+2. Fill in the required details (name, description, recipient address).
+3. Upload your smart contract file (.sol) and an image.
+4. Click "Mint NFT".
+## Listing an NFT on the Marketplace
+1. Navigate to the marketplace section.
+2. Select the NFT you want to list.
+3. Set the price or start an auction.
+4. Confirm the transaction in MetaMask.
+## Technical Details
+1. Scroll: Enhances the scalability and security of Ethereum transactions.
+2. The Graph: Provides efficient real-time indexing and retrieval of smart contract metadata.
+3. Thirdweb: Facilitates the minting and management of NFTs.
 
-## Run locally
+## Acknowledgements
 
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn preview
-```
-
+- [Scroll](https://scroll.io) - For providing a security-focused Ethereum scaling solution that enhances the scalability and security of our transactions.
+- [The Graph](https://thegraph.com) - For enabling efficient real-time indexing and retrieval of smart contract metadata through subgraph technology.
+- [Thirdweb](https://thirdweb.com) - For facilitating the minting and management of NFTs, making our marketplace seamless and user-friendly.
