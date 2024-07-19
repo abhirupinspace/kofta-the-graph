@@ -1,5 +1,6 @@
 # Kofta - The Ultimate Smart Contract NFT Marketplace
-![Uploading Screenshot 2024-07-19 034403.png…]()
+![image](https://github.com/user-attachments/assets/6be832ff-6f65-49eb-8cd9-0b5a89d97092)
+
 
 
 Kofta revolutionizes the smart contract ecosystem by leveraging the power of Scroll and The Graph to create a seamless, scalable, and secure platform for minting, buying, and selling smart contracts as NFTs.
